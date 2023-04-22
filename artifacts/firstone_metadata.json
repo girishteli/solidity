@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "mystring",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_updatestring",
+						"type": "string"
+					}
+				],
+				"name": "updtring",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"firstcontract.sol": "firstone"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"firstcontract.sol": {
+			"keccak256": "0x82e17fa521894261587e032d69cf23b8c2cc4a2b456562a7a2f2fd5ad49d9191",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b104db6ee25705c933a9e423f5b8d6e991d7a904d773159270cc4f3484b11b72",
+				"dweb:/ipfs/QmdNBefXi95Md5HHr8nApjSEncZyqy2LPHSFfA294MDSae"
+			]
+		}
+	},
+	"version": 1
+}
